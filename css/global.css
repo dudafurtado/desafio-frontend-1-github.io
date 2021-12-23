@@ -102,7 +102,7 @@ a:visited {
     width: 367px;
 }
 
-.interessado button {
+.interessado button a {
     padding: 17px 50px;
     border: 1px solid #33323D;
 
@@ -114,7 +114,7 @@ a:visited {
     color: #33323D;
 }
 
-.interessado button:hover {
+.interessado button a:hover {
     background-color: #33323D;
     color: #FAFAFA;
 }
