@@ -1,0 +1,104 @@
+.img img {
+    width: 1020px;
+    height: 500px;
+
+    margin-top: 90px;
+}
+
+.conteudo {
+    display: flex;
+}
+
+.conteudo h2 {
+    padding-top: 18px;
+}
+
+.conteudo p {
+    margin-bottom: 53px;
+}
+
+.conteudo span {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5FB4A2;
+
+    margin-bottom: 16px;
+}
+
+.conteudo button {
+    padding: 17px 50px;
+    border: 1px solid #33323D;
+
+    margin: 49px 0px 45px;
+}
+
+aside {
+    height: 600px;
+    border-top: 1px solid rgba(51, 50, 61,0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+
+    margin-top: 100px;
+}
+
+.p-menor {
+    width: 610px;
+}
+
+.projeto {
+    margin-left: 100px;
+    margin-top: 115px;
+}
+
+.projeto img {
+    height: 400px;
+    width: 645px;
+}
+
+.preview1 {
+    margin-top: 28px;
+    margin-bottom: 32px;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 80px 165px 0px;
+    padding: 32px 0px;
+    
+    border-top: 1px solid rgba(51, 50, 61,0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.barra img {
+    width: 8px;
+    height: 16px;
+}
+
+.barra span {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(51, 50, 61,0.5);
+}
+
+.subbarra {
+    display: flex;
+    align-items: center;
+}
+
+h3 {
+    margin: 0px;
+}
+
+.arrow-right {
+    margin-left: 32px;
+}
+
+.arrow-left {
+    margin-right: 32px;
+}

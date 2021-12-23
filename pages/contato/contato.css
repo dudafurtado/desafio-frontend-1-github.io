@@ -1,0 +1,63 @@
+.contato-text {
+    display: flex;
+    justify-content: space-between;
+    
+    border-top: 1px solid  rgba(51, 50, 61, 0.15);
+}
+
+.contato-text, .contato {
+    margin: 90px 165px 0px;
+    padding: 48px 0px;
+}
+
+.contato-introducao p {
+    width: 580px;
+}
+
+.icons {
+    display: flex;
+    gap: 15px;
+
+    margin-top: 54px;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 65px;
+    border-top: 1px solid  rgba(51, 50, 61, 0.15);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;  
+}
+
+input {
+    width: 580px;
+    height: 48px;
+
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.mensagem {
+    height: 96px;
+}
+
+button {
+    width: 200px;
+    padding: 17px 24px;
+    background: #203A4C;
+
+    text-align: center;
+    color: #FFFFFF;
+
+    margin-top: 20px;
+}
+
+button:hover {
+    background: #5FB4A2;
+    cursor: pointer;
+}

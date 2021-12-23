@@ -1,0 +1,90 @@
+.introducao-background {
+    height: 100vh;
+    background-image: url(../../assets/home/image-homepage-hero.jpg);
+    background-position: center;
+    background-size: 1020px;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    margin-top: 75px;
+}
+
+.introducao {
+    width: 445px;
+    height: 357px;
+    background-color: #FAFAFA;
+
+    margin-bottom: 35px;
+}
+
+.introducao h1 {
+    padding: 5px 28px 20px 27px;
+}
+
+.button-sobremim a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding-right: 34px;
+    background: rgba(32, 58, 76, 0.96); 
+    
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+}
+
+.arrows {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 18px 16px;
+    margin-right: 34px;
+}
+
+.button-sobremim a:hover {
+    background-color: #54a191;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 100px;
+}
+
+.apresentacao-profile img {
+    height: 550px;
+    margin-right: 120px;
+}
+
+.sobremim {
+    display: flex;
+    flex-direction: column;
+
+    padding-bottom: 30px;
+    border-top: 1px solid rgba(51, 50, 61, 0.15);
+    border-bottom: 1px solid rgba(51, 50, 61, 0.15);
+}
+
+.sobremim p {
+    margin-bottom: 35px;
+    margin-top: 0px;
+}
+
+.border {
+    align-self: center;
+}
+
+.border a {
+    border: 1px solid #33323D;
+    padding: 17px 28px;
+
+    margin-top: 20px;
+}
+

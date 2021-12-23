@@ -1,0 +1,185 @@
+/*
+header, footer 
+cores
+tipografia 
+botoes
+elementos
+*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 64px 160px 9px;
+}
+
+header img:hover, .lado-esquerdo-footer img:hover, .lado-direito-footer img:hover {
+    cursor:not-allowed;
+}
+
+.lado-direito-header {
+    display: flex;
+    flex-direction: row;
+
+    gap: 42px;
+}
+
+section, footer {
+    padding: 0px 165px;
+}
+
+.text-color-grey {
+    color: #33323D;
+}
+
+.text-color-green {
+    color: #5FB4A2
+}
+
+h1, h2, h3, p, a {
+    color: #33323D;
+}
+
+h1, h2, h3 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 700;
+}
+
+h1  {
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.446429px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.357143px;
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.285714px;
+}
+
+a, p {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: #33323D;
+}
+
+.interessado {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.interessado h2 {
+    width: 367px;
+}
+
+.interessado button {
+    padding: 17px 50px;
+    border: 1px solid #33323D;
+
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #33323D;
+}
+
+.interessado button:hover {
+    background-color: #33323D;
+    color: #FAFAFA;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.8;
+}
+
+.p-menor {
+    font-size: 15px;
+    line-height: 30px;
+}
+
+button {
+    all: unset;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.botao-tons-azul {
+    background-color: #203A4C;
+}
+
+.botao-tons-azul:hover {
+    background-color: #5FB4A2;
+}
+
+input {
+    all: unset;
+    background-color: #EAEAEB;
+    border: 2px solid transparent;
+}
+
+input:hover {
+    border: 2px solid rgb(51, 50, 61);
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    background-color: #33323D;  
+}
+
+.lado-esquerdo-footer {
+    display: flex;
+    align-items: center;
+
+    gap: 42px;
+}
+
+.lado-esquerdo-footer a {
+    color: white;
+}
+
+.lado-direito-footer {
+    display: flex;
+
+    gap: 17px;
+}
